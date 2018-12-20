@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19004" started-at="2018-12-19T19:43:20Z" finished-at="2018-12-19T19:43:39Z">
+  <suite name="Default suite" duration-ms="18081" started-at="2018-12-20T04:27:17Z" finished-at="2018-12-20T04:27:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19004" started-at="2018-12-19T19:43:20Z" finished-at="2018-12-19T19:43:39Z">
+    <test name="Default test" duration-ms="18081" started-at="2018-12-20T04:27:17Z" finished-at="2018-12-20T04:27:35Z">
       <class name="com.training.sanity.tests.NewTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="setUpBeforeClass" is-config="true" duration-ms="8014" started-at="2018-12-20T01:13:20Z" finished-at="2018-12-20T01:13:28Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="setUpBeforeClass" is-config="true" duration-ms="10471" started-at="2018-12-20T09:57:17Z" finished-at="2018-12-20T09:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="validLoginTest" duration-ms="2980" started-at="2018-12-20T01:13:28Z" finished-at="2018-12-20T01:13:31Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="validLoginTest" duration-ms="4134" started-at="2018-12-20T09:57:28Z" finished-at="2018-12-20T09:57:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="userListTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="userListTest" duration-ms="7132" started-at="2018-12-20T01:13:31Z" depends-on-methods="com.training.sanity.tests.NewTest.validLoginTest" finished-at="2018-12-20T01:13:38Z">
+        <test-method status="PASS" signature="userListTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="userListTest" duration-ms="2642" started-at="2018-12-20T09:57:32Z" depends-on-methods="com.training.sanity.tests.NewTest.validLoginTest" finished-at="2018-12-20T09:57:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userListTest -->
-        <test-method status="PASS" signature="closeBrowserTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="closeBrowserTest" is-config="true" duration-ms="848" started-at="2018-12-20T01:13:38Z" finished-at="2018-12-20T01:13:39Z">
+        <test-method status="PASS" signature="closeBrowserTest()[pri:0, instance:com.training.sanity.tests.NewTest@6767c1fc]" name="closeBrowserTest" is-config="true" duration-ms="787" started-at="2018-12-20T09:57:34Z" finished-at="2018-12-20T09:57:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowserTest -->

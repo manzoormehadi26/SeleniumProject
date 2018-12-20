@@ -23,16 +23,16 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 public class NewTest {
-	public static WebDriver driver;
-	private static String baseUrl;
-	private static LoginPOM loginPOM;
-	private static UserPom userpom;
-	private static Properties properties;
-	private static ScreenShot screenShot;
+	private WebDriver driver;
+	private String baseUrl;
+	private LoginPOM loginPOM;
+	private UserPom userpom;
+	private Properties properties;
+	private ScreenShot screenShot;
 	
 
 	@BeforeClass
-	public static void setUpBeforeClass() throws IOException {
+	public void setUpBeforeClass() throws IOException {
 		properties = new Properties();
 		FileInputStream inStream = new FileInputStream("./resources/others.properties");
 		properties.load(inStream);
@@ -59,6 +59,7 @@ public class NewTest {
 	*/
 	@Test
 	public void validLoginTest() {
+		System.out.println("login");
 		loginPOM.sendUserName("admin");
 		loginPOM.sendPassword("admin@123");
 		loginPOM.clickLoginBtn(); 
@@ -67,9 +68,10 @@ public class NewTest {
 		
 	}
 	
-	@Test(dependsOnMethods ={"validLoginTest"})
+	@Test (dependsOnMethods={"validLoginTest"})
 	public void userListTest() throws InterruptedException{
-		Thread.sleep(5000);
+		System.out.println("user list");
+		//Thread.sleep(5000);
 		userpom= new UserPom(driver);
 		userpom.clickUserList();
 	}

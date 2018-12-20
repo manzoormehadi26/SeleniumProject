@@ -6,8 +6,7 @@
       <class name="com.training.sanity.tests.NewTest">
         <methods>
           <include name="userListTest"/>
-          <include name="setUpTest"/>
-          <include name="validLoginTest"/>
+          <include name="closeBrowserTest"/>
           <include name="setUpBeforeClass"/>
         </methods>
       </class> <!-- com.training.sanity.tests.NewTest -->
