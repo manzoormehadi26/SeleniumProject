@@ -70,7 +70,7 @@ public class NewTest {
 	
 	@Test (dependsOnMethods={"validLoginTest"})
 	public void userListTest() throws InterruptedException{
-		System.out.println("user list");
+		System.out.println("user list1");
 		//Thread.sleep(5000);
 		userpom= new UserPom(driver);
 		userpom.clickUserList();
